@@ -11,6 +11,7 @@ class Solution:
         distinct_char = set()
         
         while end < len(s):
+            
             if s[end] not in distinct_char:
                 distinct_char.add(s[end])
                 end += 1
