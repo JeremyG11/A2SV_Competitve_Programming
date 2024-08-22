@@ -28,7 +28,6 @@ class Solution:
         nums[index], nums[j] = nums[j], nums[index]
 
         self.reverser(nums, index + 1, maxLength-1)
-
         return nums
 
 
