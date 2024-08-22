@@ -3,7 +3,6 @@ class Solution:
         """
         :type s: str
         :rtype: int
-        
         """
         if s == "":
             return 0
