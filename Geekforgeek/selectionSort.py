@@ -6,6 +6,7 @@ class Solution:
             return arr[i]
     
     def selectionSort(self, arr,n):
+        
         l = len(arr)
         for i in range(l):
             minIndex = i
