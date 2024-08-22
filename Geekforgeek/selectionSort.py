@@ -8,6 +8,7 @@ class Solution:
     def selectionSort(self, arr,n):
         
         l = len(arr)
+        
         for i in range(l):
             minIndex = i
             for j in range(i+1, len(arr)):
