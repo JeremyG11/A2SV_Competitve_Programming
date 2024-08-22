@@ -20,5 +20,4 @@ class Solution:
             else:
                 distinct_char.remove(s[start])
                 start += 1
-
         return longestString
