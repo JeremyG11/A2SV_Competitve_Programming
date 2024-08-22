@@ -13,8 +13,9 @@ class Solution:
                 distinct_char.add(s[end])
                 end += 1
                 longestString = max(longestString, len( distinct_char))
+            
             else:
                 distinct_char.remove(s[start])
                 start += 1
-                
+
         return longestString
