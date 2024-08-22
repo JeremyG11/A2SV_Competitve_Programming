@@ -12,6 +12,7 @@ class Solution:
         for i in range(l):
             
             minIndex = i
+            
             for j in range(i+1, len(arr)):
                 if arr[minIndex] > arr[j]:
                     minIndex = j
