@@ -8,7 +8,6 @@ class Solution:
         if s == "":
             return 0
         start, end, longestString = 0, 0, 0
-        
         distinct_char = set()
         
         while end < len(s):
