@@ -7,7 +7,9 @@ class Solution:
         if s == "":
             return 0
         start, end, longestString = 0, 0, 0
+        
         distinct_char = set()
+        
         while end < len(s):
             if s[end] not in distinct_char:
                 distinct_char.add(s[end])
