@@ -5,7 +5,6 @@ class Solution:
         for i in range(len(arr)):
             return arr[i]
         # code here 
-      
     
     def selectionSort(self, arr,n):
         l = len(arr)
