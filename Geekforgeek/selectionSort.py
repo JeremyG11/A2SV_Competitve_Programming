@@ -4,7 +4,6 @@ class Solution:
     def select(self, arr, i):
         for i in range(len(arr)):
             return arr[i]
-        # code here 
     
     def selectionSort(self, arr,n):
         l = len(arr)
