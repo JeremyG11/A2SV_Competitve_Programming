@@ -4,6 +4,7 @@ class Solution:
         :type s: str
         :rtype: int
         """
+        
         if s == "":
             return 0
         start, end, longestString = 0, 0, 0
