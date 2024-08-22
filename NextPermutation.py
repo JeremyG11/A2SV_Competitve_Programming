@@ -1,10 +1,11 @@
 class Solution:
+    
     def reverser(self, nums, i, j):
         while i < j:
             nums[i], nums[j] = nums[j], nums[i]
             i += 1
             j -= 1
-
+            
     def nextPermutation(self, nums):
         """
         Do not return anything, modify nums in-place instead.
