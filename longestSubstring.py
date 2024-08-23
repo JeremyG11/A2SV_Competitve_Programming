@@ -1,4 +1,8 @@
 class Solution:
+    """_summary_ 
+    Given a string, find the length of the longest substring without repeating characters.
+    
+    """
     def lengthOfLongestSubstring(self, s: str) -> int:
         """
         :type s: str

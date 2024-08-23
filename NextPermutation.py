@@ -1,5 +1,7 @@
 class Solution:
-    
+    """_summary_
+    Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+    """
     def reverser(self, nums, i, j):
         while i < j:
             nums[i], nums[j] = nums[j], nums[i]
