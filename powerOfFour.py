@@ -1,6 +1,7 @@
 class Solution:
     def isPowerOfFour(self, n: int) -> bool:
         """ 
+        Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
         
         """
         if n <= 0:
