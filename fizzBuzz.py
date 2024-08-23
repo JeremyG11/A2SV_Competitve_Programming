@@ -21,6 +21,3 @@ class FuzzBizz(object):
             else:
                  result.append(str(i)) 
         return result
-        # fizzBuzz(self, 3)
-        # fizzBuzz(self, 5)
-        fizzBuzz(self, 15)
