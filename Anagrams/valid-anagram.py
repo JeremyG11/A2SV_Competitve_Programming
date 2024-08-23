@@ -1,5 +1,14 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        """_summary_
+
+        Args:
+            s (str): _description_
+            t (str): _description_
+
+        Returns:
+            bool: _description_
+        """
         mapOne, mapTwo = {}, {}
 
         if(len(s) != len(t)):
