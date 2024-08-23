@@ -1,5 +1,6 @@
 def maxArea(self, height: List[int]) -> int:
     max_area = -maxsize
+    
     left = 0
     right = len(height) - 1
     while left < right:
